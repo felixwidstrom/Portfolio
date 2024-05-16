@@ -191,6 +191,10 @@ input[type="text"] {
         top: calc(50vh - max(calc(min(100vw, 100vh) - 32px), 288px)/2);
     }
 
+    .home {
+        background-color: rgba(0,0,0,0.5);
+    }
+
     .home p {
         width: min(calc(100vw - 32px), 768px);
     }
