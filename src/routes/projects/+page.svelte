@@ -16,7 +16,7 @@
 				selectedProject = project;
 				open = true;
 			}}
-			class="flex h-[180px] w-full bg-white"
+			class="flex h-[180px] w-full bg-white cursor-pointer"
 			style="background-image: url({project.image}); background-size: cover; background-position: center;"
 		>
 			<div class="m-auto w-fit bg-black p-2">
