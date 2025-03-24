@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { Canvas } from '@threlte/core';
 	import { AsciiRenderer } from '@threlte/extras';
+
 	import Scene from '$components/Scene.svelte';
 </script>
 
-<div class="grid h-full w-full grid-cols-2 items-center text-white">
+<div class="grid h-full w-full grid-cols-1 grid-rows-[auto,1fr] items-center text-white md:grid-cols-2">
 	<div class="flex flex-col gap-2 p-4">
 		<p class="text-xl">Welcome!</p>
 		<p>
