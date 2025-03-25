@@ -34,7 +34,7 @@
 		<div class="flex flex-col-reverse gap-6 md:grid md:grid-cols-[1fr_2fr]">
 			<div class="flex flex-col gap-2">
 				<p>{selectedProject?.description}</p>
-				<a href={selectedProject?.link} target="_blank" class="text-blue-500 underline">Link</a>
+				<a href={selectedProject?.link} target="_blank" class="w-min text-blue-500 underline">Link</a>
 			</div>
 			<img
 				src={selectedProject?.image ?? 'https://placehold.co/1920x1080?text=No+image+available'}
