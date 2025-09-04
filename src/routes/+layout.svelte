@@ -44,7 +44,7 @@
 </main>
 
 <footer class="relative flex h-min w-full items-center p-4 text-white">
-	<p>C:\Users\Guest&gt;</p>
+	<p class="text-nowrap">C:\Users\Guest&gt;</p>
 	<input
 		type="text"
 		bind:value={command}
