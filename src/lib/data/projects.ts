@@ -16,7 +16,7 @@ export const projects: Array<Project> = [
 	},
 	{
 		title: '3D Viewer',
-		description: '',
+		description: 'A web-based 3D model viewer. Currently supports .obj files.',
 		image: Viewer,
 		link: 'https://felixwidstrom.github.io/3D-Viewer'
 	},
