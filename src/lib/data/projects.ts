@@ -14,16 +14,16 @@ export const projects: Array<Project> = [
 		description: 'An android application that provides the user with a simple to use widget for quickly seeing the coming departures from an SL stop location.',
 		link: 'https://github.com/felixwidstrom/SL-Widget'
 	},
-	// {
-	// 	title: 'Pantry Tracker',
-	// 	description: 'An application that helps users keep track of their pantry items and their expiration dates.',
-	// 	image: PantryTracker,
-	// 	link: 'https://felixwidstrom.github.io/Pantry-Tracker'
-	// },
-	// {
-	// 	title: '3D Viewer',
-	// 	description: '',
-	// 	image: Viewer,
-	// 	link: 'https://felixwidstrom.github.io/3D-Viewer'
-	// }
+	{
+		title: '3D Viewer',
+		description: '',
+		image: Viewer,
+		link: 'https://felixwidstrom.github.io/3D-Viewer'
+	},
+	{
+		title: 'Pantry Tracker',
+		description: 'An application that helps users keep track of their pantry items and their expiration dates.',
+		image: PantryTracker,
+		link: 'https://felixwidstrom.github.io/Pantry-Tracker'
+	},
 ];
